@@ -1,0 +1,66 @@
+---
+layout: default
+---
+
+<div class="home">
+
+<style>
+  .wrapper {max-width: none !important;}
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {border: 1px solid #ccc; padding: 2px; vertical-align: top;}
+  th, td:not([class]) {text-align:left; white-space:nowrap;}
+  tbody:not(:first-of-type) tr:not(.level2) th, tbody:not(:first-of-type) tr:not(.level2) td { border-top-width: 3px; border-top-color: #666; }
+  .level2 th {
+    padding-left: calc(1em + 2px);
+  }
+</style>
+
+  <table>
+    <caption>Resources Overview</caption>
+    <thead>
+      <th>
+        Document
+      </th>
+      <th>Status</th>
+      <th>Priority</th>
+      <th>Area</th>
+      <th>Resource Manager</th>
+      <th>Contributors</th>
+      <th>Audience</th>
+      <th>Notes</th>
+    </thead>
+    {% for res in site.resources %}
+      <tbody>
+        <tr data-prio="{{ res.priority }}">
+          <th>{{ res.title }}</th>
+          <td>{{ res.status }}</td>
+          <td>{{ res.priority }}</td>
+          <td class="area" rowspan="{{res.subresources | size | plus: 1}}">{{ res.area }}</td>
+          <td>{{ res.manager }}</td>
+          <td>{{ res.contributors }}</td>
+          <td>{{ res.audience }}</td>
+          <td class="note">{{ res.note }}</td>
+        </tr>
+        {% for subres in res.subresources %}
+          <tr class="level2">
+            <th>{{ subres.title }}</th>
+            <td>{{ subres.status }}</td>
+            <td>{{ subres.priority }}</td>
+            {% if (subres.area | size) > 0 %}
+            <td class="area">{{ subres.area }}</td>
+            {% endif %}
+            <td>{{ subres.manager }}</td>
+            <td>{{ subres.contributors }}</td>
+            <td>{{ subres.audience }}</td>
+            <td class="note">{{ subres.note }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    {% endfor %}
+  </table>
+
+</div>

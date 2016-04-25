@@ -1,0 +1,15 @@
+# Site settings
+title: "W3C/WAI Resources [DRAFT – In Development]"
+email: ee@w3.org
+description: > # this means to ignore newlines until "baseurl:"
+  W3C/WAI resources overview. In Development.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://www.w3.org/WAI/" # the base hostname & protocol for your site
+twitter_username: w3c_wai
+github_username:  yatil
+
+# Build settings
+markdown: kramdown
+
+collections:
+- resources
