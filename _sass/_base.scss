@@ -202,3 +202,40 @@ pre {
         }
     }
 }
+
+ul.inline {
+    &, li {
+        display: inline;
+        margin: 0;
+        padding: 0;
+    }
+    li:after {
+        content: ', ';
+    }
+    li:last-child:after {
+        content: '';
+    }
+}
+
+/* colors */
+
+.publication {
+    background-color: #C2FF75;
+}
+.draft, .public-draft {
+    background-color: #FFC6C6;
+}
+
+.maintenance {
+    background-color: #eee;
+}
+
+.nextstage:empty {
+    background-color: #999;
+}
+
+th details {
+    font-size: .8em;
+    margin-left: 2em;
+    font-weight: normal;
+}
