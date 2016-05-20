@@ -1,5 +1,5 @@
 # Site settings
-title: "W3C/WAI Resources [DRAFT – In Development]"
+title: "WAI Resources Overview"
 email: ee@w3.org
 description: > # this means to ignore newlines until "baseurl:"
   W3C/WAI resources overview. In Development.
@@ -12,4 +12,5 @@ github_username:  yatil
 markdown: kramdown
 
 collections:
-- resources
+  resources:
+    output: true
