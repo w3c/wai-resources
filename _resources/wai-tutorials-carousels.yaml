@@ -1,0 +1,20 @@
+---
+title: Tutorial – Carousels
+url: https://www.w3.org/WAI/tutorials/carousels/
+repository: wai-tutorials
+updated: 2015-02-27
+status: needs-update
+urgency: 5
+effort: 4
+rm: EricE
+contributors:
+- Susan
+- Adina
+- Shadi
+current-stage: public-draft
+roadmap:
+  - date: 2016/Q3
+    stage: publication
+---
+
+Re-Structuring and language first pass on Github as pull requests. Needs review. Then WCAG WG review.

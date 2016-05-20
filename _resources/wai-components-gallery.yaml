@@ -1,0 +1,16 @@
+---
+title: Accessible UI Components List
+url: https://www.w3.org/blog/wai-components-gallery/
+repository: wai-components-gallery
+status: draft
+rm: EricE
+priority: false
+urgency: 5
+effort: 3
+current-stage: publication
+updated: 2016-05-20
+audience: Developers
+roadmap:
+  - date: 2016/Q2
+    stage: maintenance
+---
