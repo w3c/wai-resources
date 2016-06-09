@@ -290,10 +290,22 @@ th details {
   display: none;
 }
 
+/* Matches not working in non-safari :-/
 .custom.prio-only tbody tr[data-prio=true],
 .custom.urgency-high tbody tr[data-urgency="5"],
 .custom.effort-low tbody tr:matches([data-effort="0"], [data-effort="1"], [data-effort=""]),
 .custom.stage-draft tbody tr:matches([data-stage="public-draft"], [data-stage="draft"]), {
+  display: table-row;
+}
+*/
+
+.custom.prio-only    tbody tr[data-prio=true],
+.custom.urgency-high tbody tr[data-urgency="5"],
+.custom.effort-low   tbody tr[data-effort="0"],
+.custom.effort-low   tbody tr[data-effort="1"],
+.custom.effort-low   tbody tr[data-effort=""],
+.custom.stage-draft  tbody tr[data-stage="public-draft"],
+.custom.stage-draft  tbody tr[data-stage="draft"] {
   display: table-row;
 }
 
