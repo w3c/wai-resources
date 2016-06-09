@@ -1,6 +1,7 @@
 ---
 title: "Better Web Browsing: Tips for Customizing Your Computer"
-url: http://www.w3.org/WAI/users/browsing
+shorttitle: "Better Web Browsing: Tips"
+uri: http://www.w3.org/WAI/users/browsing
 repository:
 updated: 2010-08-24
 urgency: 1

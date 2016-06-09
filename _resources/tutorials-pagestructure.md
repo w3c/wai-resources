@@ -1,6 +1,6 @@
 ---
 title: Tutorial – Page Structure
-url: https://www.w3.org/WAI/tutorials/images/
+uri: https://www.w3.org/WAI/tutorials/images/
 repository: wai-tutorials
 updated: 2015-02-27
 status: draft

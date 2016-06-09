@@ -1,6 +1,6 @@
 ---
 title: "Accessibility (WAI intro)"
-url: http://www.w3.org/standards/webdesign/accessibility
+uri: http://www.w3.org/standards/webdesign/accessibility
 repository:
 updated: 2005-09-01
 priority: true
@@ -11,7 +11,5 @@ contributors:
 - Sharron
 current-stage: publication
 roadmap:
-notes: >
-  would be good to reconcile this with Accessibility - W3C, Intro
+note: would be good to reconcile this with Accessibility - W3C, Intro
 ---
-

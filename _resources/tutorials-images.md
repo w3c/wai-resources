@@ -1,6 +1,6 @@
 ---
 title: Tutorial – Images
-url: https://www.w3.org/WAI/tutorials/images/
+uri: https://www.w3.org/WAI/tutorials/images/
 repository: wai-tutorials
 updated: 2015-03-02
 status: needs-update

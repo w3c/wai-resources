@@ -1,6 +1,6 @@
 ---
 title: Evaluation Tools List
-url: https://www.w3.org/WAI/ER/tools/
+uri: https://www.w3.org/WAI/ER/tools/
 repository: wai-eval-tools
 status: stable
 urgency: 0

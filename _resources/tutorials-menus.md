@@ -1,6 +1,6 @@
 ---
-title: Tutorial – Carousels
-url: https://www.w3.org/WAI/tutorials/carousels/
+title: Tutorial – Menus
+uri: https://www.w3.org/WAI/tutorials/menus/
 repository: wai-tutorials
 updated: 2015-02-27
 status: needs-update

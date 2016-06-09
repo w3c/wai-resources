@@ -1,6 +1,6 @@
 ---
 title: "Accessibility (W3C intro)"
-url: https://www.w3.org/WAI/intro/accessibility.php
+uri: https://www.w3.org/WAI/intro/accessibility.php
 repository:
 updated: 2010-04-21
 urgency: 2
