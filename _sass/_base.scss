@@ -285,6 +285,22 @@ th details {
   a {text-decoration: underline;}
 }
 
+// Customization
+.custom tbody tr {
+  display: none;
+}
+
+.custom.prio-only tbody tr[data-prio=true],
+.custom.urgency-high tbody tr[data-urgency="5"],
+.custom.effort-low tbody tr:matches([data-effort="0"], [data-effort="1"], [data-effort=""]),
+.custom.stage-draft tbody tr:matches([data-stage="public-draft"], [data-stage="draft"]), {
+  display: table-row;
+}
+
+button[aria-pressed=true] {
+  font-weight: bold;
+}
+
 [class^="icon-"], [class*=" icon-"] {
   display: inline-block;
   width: 1em;

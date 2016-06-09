@@ -18,6 +18,15 @@ layout: default
   }
 </style>
 
+  <fieldset id="changeview">
+    <legend>Show only…</legend>
+    <button data-class="prio-only">Priority items</button>
+    <button data-class="stage-draft">Drafts</button>
+    <button data-class="urgency-high">High Urgency</button>
+    <button data-class="effort-low">Low Effort</button>
+    <button>Reset</button>
+  </fieldset>
+
   <table class="sortable">
     <caption>Resources Overview</caption>
     <thead>
@@ -36,7 +45,7 @@ layout: default
     <tbody>
     {% assign resources = site.resources | order_by: 'priority' %}
     {% for res in resources %}
-        <tr data-prio="{{ res.priority }}" data-urgency="{{ res.urgency }}"  data-effort="{{ res.effort }}" data-rm="{{ res.rm }}" data-contributors="{{ res.contributors }}">
+        <tr data-prio="{{ res.priority }}" data-urgency="{{ res.urgency }}" data-stage="{{ res.current-stage }}" data-effort="{{ res.effort }}" data-rm="{{ res.rm }}" data-contributors="{{ res.contributors }}">
           <td>{% if res.priority %}<span class="visuallyhidden">Priority</span>{% include icon.html use="flag" %}{% endif %}</td>
           <th>
             {% if res.uri %}<a href="{{ res.uri }}">{% endif %}
@@ -568,3 +577,38 @@ Utility.createDelegate = Utility.createDelegate || function(instance, method, ar
 SortableTable.initAll();
 </script>
 <!-- force generation -->
+
+<script>
+var buttons = document.querySelectorAll('#changeview button[data-class]');
+var resetbutton = document.querySelector('#changeview button:not([data-class])');
+console.log(buttons);
+console.log(resetbutton);
+
+Array.prototype.forEach.call(buttons, function(el, i){
+  el.addEventListener('click', function(e) {
+    var buttons = document.querySelectorAll('#changeview button[data-class]');
+    var klass = e.target.getAttribute('data-class');
+    var body_element = document.querySelector('body');
+    console.log(body_element.classList);
+    Array.prototype.forEach.call(buttons, function(elem, j){
+      var bd_element = document.querySelector('body');
+      bd_element.classList.remove(elem.getAttribute('data-class'));
+      elem.setAttribute('aria-pressed', false);
+    });
+    body_element.classList.add('custom');
+    body_element.classList.add(klass);
+    el.setAttribute('aria-pressed', true);
+    console.log(body_element.classList);
+  } );
+});
+
+resetbutton.addEventListener('click', function(e) {
+  var body_element = document.querySelector('body');
+  body_element.classList.remove('custom');
+
+  var buttons = document.querySelectorAll('#changeview button[data-class]');
+  Array.prototype.forEach.call(buttons, function(elem, j){
+    elem.setAttribute('aria-pressed', false);
+  });
+});
+</script>
