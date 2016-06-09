@@ -581,15 +581,15 @@ SortableTable.initAll();
 <script>
 var buttons = document.querySelectorAll('#changeview button[data-class]');
 var resetbutton = document.querySelector('#changeview button:not([data-class])');
-console.log(buttons);
-console.log(resetbutton);
+// console.log(buttons);
+// console.log(resetbutton);
 
 Array.prototype.forEach.call(buttons, function(el, i){
   el.addEventListener('click', function(e) {
     var buttons = document.querySelectorAll('#changeview button[data-class]');
     var klass = e.target.getAttribute('data-class');
     var body_element = document.querySelector('body');
-    console.log(body_element.classList);
+    // console.log(body_element.classList);
     Array.prototype.forEach.call(buttons, function(elem, j){
       var bd_element = document.querySelector('body');
       bd_element.classList.remove(elem.getAttribute('data-class'));
@@ -598,7 +598,7 @@ Array.prototype.forEach.call(buttons, function(el, i){
     body_element.classList.add('custom');
     body_element.classList.add(klass);
     el.setAttribute('aria-pressed', true);
-    console.log(body_element.classList);
+    // console.log(body_element.classList);
   } );
 });
 
