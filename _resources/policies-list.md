@@ -13,6 +13,6 @@ rm: ?Mary Jo, Wayne                      # Resource Manager
 contributors:                  # List of Contributors, optional
 - Shawn
 - Brent
-- Eric
+- EricE
 note: ""      # optional
 ---
