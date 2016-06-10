@@ -13,6 +13,8 @@ contributors:
 current-stage: publication
 roadmap:
   - date: 2016/Q3
+    stage: draft
+  - date: 2016/Q3
     stage: publication
   - date: 2017/Q1
     stage: maintanance
@@ -20,6 +22,5 @@ roadmap:
     stage: draft
   - date: 2017/Q3
     stage: publication
+note: Minor issue fixed on Github as [PR#340](https://github.com/w3c/wai-tutorials/pull/340).
 ---
-
-Minor issue fixed on Github as PR#340.
