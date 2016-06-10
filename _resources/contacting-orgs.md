@@ -1,7 +1,7 @@
 ---
 title: "Contacting Organizations about Inaccessible Websites"
 shorttitle: "Contacting Organizations"
-uri: http://www.w3.org/WAI/users/browsing
+uri: https://www.w3.org/WAI/users/inaccessible.html
 repository:
 updated: 2010-04-21
 urgency:
