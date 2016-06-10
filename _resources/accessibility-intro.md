@@ -5,7 +5,7 @@ repository:
 updated: 2005-09-01
 priority: true
 urgency: 3
-effort: 4
+effort: 2
 rm: Shawn
 contributors:
 - Sharron
