@@ -22,5 +22,5 @@ roadmap:
     stage: draft
   - date: 2017/Q3
     stage: publication
-note: Minor issue fixed on Github as [PR#340](https://github.com/w3c/wai-tutorials/pull/340).
+note: "Minor issue fixed on Github as [PR#340](https://github.com/w3c/wai-tutorials/pull/340)."
 ---
