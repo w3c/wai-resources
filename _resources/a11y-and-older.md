@@ -7,9 +7,9 @@ updated: 2010-10-18
 urgency:
 effort:
 priority:
-rm: Susan
+rm: Andrew
 contributors:
-- Andrew
+- Susan
 current-stage: published
 roadmap:
 note: Literature Review sub page should get updated status
