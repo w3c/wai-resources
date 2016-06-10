@@ -18,6 +18,40 @@ layout: default
   }
 </style>
 
+  <div id="fieldsets">
+  <fieldset>
+    <legend>Create New Resource File</legend>
+    <form action="https://github.com/w3c/wai-resources/new/gh-pages/">
+      <a href="CONTRIBUTING.html">Explain file format</a>
+      <textarea name="value" hidden cols="30" rows="10">---
+title: "[Resource Title]"
+shorttitle: "[short title – optional]"
+uri: [url of _published_ resource (not to a draft) – optional]
+repository: "[repository, for example wai-tutorials – no need for w3c/ or GitHub URL – optional]"
+requirements: "[url of requirements analysis – optional]"
+updated: [1999-12-24]
+current-stage: [requirements|planning|concept|draft|public-draft|publication|maintenance]
+priority: [true|false – optional]
+urgency: [0–5, with 1 = low, 5 = high]
+effort: [0–5, with 1 = low, 5 = high]
+rm: [Resource Manager First Name]
+contributors:
+- [contributer 1 – optional]
+- [contributer 2 – optional]
+- [contributer 3 – optional]
+- [contributer 4 – optional]
+roadmap: # As many pairs of data as you want (first pair -> next stage in the tool)
+  - date: [date – 1999-12-24 or 2020/Q3]
+    stage: [requirements|planning|concept|draft|public-draft|publication|maintenance]
+note: "[note – optional]"
+---</textarea>
+      <label for="reponame">File name:</label><input id="reponame" name="filename" value="repository-name.md". type="text">
+      <input type="hidden" name="path" value="_resources">
+      <button type="submit">Create New Resource File</button>
+    </form>
+  </fieldset>
+
+
   <fieldset id="changeview">
     <legend>Show only…</legend>
     <button data-class="prio-only">Priority items</button>
@@ -26,8 +60,8 @@ layout: default
     <button data-class="effort-low">Low Effort</button>
     <button>Reset</button>
   </fieldset>
-  <br><a href="howto.html">How to edit data.</a><br><br>
 
+  </div>
   <table class="sortable">
     <thead>
       <th aria-label="priority">P</th>
