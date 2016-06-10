@@ -3,4 +3,4 @@ Title: "How to?"
 layout: default
 ---
 
-[This is now CONTRIBUTING.md](CONTRIBUTING.md)
+[This is now CONTRIBUTING.md](CONTRIBUTING.html)

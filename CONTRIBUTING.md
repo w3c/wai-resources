@@ -3,8 +3,14 @@ Title: "How to?"
 layout: default
 ---
 
-<p>[Needs more guidance…]</p>
-<p>Indentation is important.</p>
+[Needs more guidance…]
+
+## Important considerations:
+
+* If you are seeing a big “fork this repository” button make sure that you are in the [wai-eo GitHub team](https://github.com/orgs/w3c/teams/wai-eo). You can still continue but remember to send in a pull request. If you’re not in the team, ping [Eric](mailto:ee@w3.org) to get direct editing access to the resource.
+
+* Indentation in the files is crucial.
+
 <pre>
 ---
 title: "Web Accessibility Tutorial – Images"
