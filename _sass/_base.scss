@@ -273,10 +273,13 @@ ul.inline {
   }
 }
 
-th details {
-    font-size: .8em;
-    margin-left: 2em;
-    font-weight: normal;
+th small {
+  display: block;
+  line-height: 1;
+  font-size: .7em;
+  a, a:visited, a:hover, a:focus {
+    opacity: .9;
+  }
 }
 
 .note {

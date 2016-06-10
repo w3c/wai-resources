@@ -54,14 +54,10 @@ layout: default
               {{res.title}}
             {% endif %}
             {% if res.uri %}</a>{% endif %}
-            <small><a href="https://github.com/w3c/wai-resources/edit/gh-pages/{{ res.relative_path }}">{% include icon.html use="edit" %} Edit this Info</a>
+            <small><a href="https://github.com/w3c/wai-resources/edit/gh-pages/{{ res.relative_path }}">{% include icon.html use="edit" %} Edit Info</a>
             {% if res.repository %}
-              <br><a href="https://w3c.github.io/{{ res.repository }}/">{% include icon.html use="draft" %} Draft</a>
+              <a href="https://w3c.github.io/{{ res.repository }}/">{% include icon.html use="draft" %} Draft</a>
               <a href="https://github.com/w3c/{{ res.repository }}/">{% include icon.html use="github" %} Repository</a>
-            {% else %}
-              {% if res.requirements %}
-                <br>
-              {% endif %}
             {% endif %}
             {% if res.requirements %}
               <a href="{{ res.requirements }}/">{% include icon.html use="requirements" %} Requirements</a>
