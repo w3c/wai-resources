@@ -55,8 +55,15 @@ layout: default
             {% endif %}
             {% if res.uri %}</a>{% endif %}
             {% if res.repository %}
-              <small><br><a href="https://w3c.github.io/{{ res.repository }}/">{% include icon.html use="draft" %} Draft</a>
-              <a href="https://github.com/w3c/{{ res.repository }}/">{% include icon.html use="github" %} Repository</a></small>
+              <br><a href="https://w3c.github.io/{{ res.repository }}/">{% include icon.html use="draft" %} Draft</a>
+              <a href="https://github.com/w3c/{{ res.repository }}/">{% include icon.html use="github" %} Repository</a>
+            {% else %}
+              {% if res.requirements %}
+                <br>
+              {% endif %}
+            {% endif %}
+            {% if res.requirements %}
+              <a href="{{ res.requirements }}/">{% include icon.html use="requirements" %} Requirements</a>
             {% endif %}
             <p class="note">{{ res.note }} {%comment%}{% if res.content | size > 0 %}<a href="{{res.url}}">more <span class="visuallyhidden">about {{res.title}}</span></a>{% endif %}{%endcomment%}</p>
           </th>

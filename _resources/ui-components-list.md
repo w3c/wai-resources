@@ -3,6 +3,7 @@ title: Accessible UI Components List
 shorttitle: UI Components List
 uri: https://www.w3.org/blog/wai-components-gallery/
 repository: wai-components-gallery
+requirements: https://github.com/w3c/wai-components-gallery/wiki/requirements-analysis
 status: draft
 rm: EricE
 priority: false
