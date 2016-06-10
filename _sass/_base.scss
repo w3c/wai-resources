@@ -283,8 +283,11 @@ th small {
 }
 
 .note {
-  font-weight: normal;
-  margin-bottom: 0;
+  p {
+    font-size: .7em;
+    font-weight: normal;
+    margin-bottom: 0;
+  }
   a {text-decoration: underline;}
 }
 

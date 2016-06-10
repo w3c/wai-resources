@@ -63,7 +63,9 @@ layout: default
               <a href="{{ res.requirements }}/">{% include icon.html use="requirements" %} Requirements</a>
             {% endif %}
             </small>
-            <p class="note">{{ res.note }} {%comment%}{% if res.content | size > 0 %}<a href="{{res.url}}">more <span class="visuallyhidden">about {{res.title}}</span></a>{% endif %}{%endcomment%}</p>
+            {% if res.note %}
+              <div class="note">{{ res.note | markdownify }}</div>
+            {% endif %}
           </th>
           <!-- <td>{{ res.status }}</td> -->
           <td class="{{ res.current-stage }}">
