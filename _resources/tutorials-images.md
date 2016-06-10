@@ -12,7 +12,13 @@ contributors:
 - Howard
 current-stage: publication
 roadmap:
-  - date: 2016/Q2
+  - date: 2016/Q3
+    stage: publication
+  - date: 2017/Q1
+    stage: maintanance
+  - date: 2017/Q2
+    stage: draft
+  - date: 2017/Q3
     stage: publication
 ---
 
