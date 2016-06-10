@@ -1,11 +1,19 @@
 ---
+Title: "How to?"
+layout: default
+---
+
+<p>[Needs more guidance…]</p>
+<p>Indentation is important.</p>
+<pre>
+---
 title: "Web Accessibility Tutorial – Images"
-shorttitle: "Tutorial – Images"                             #optional
+shorttitle: "Tutorial – Images"                                #optional
 uri: https://www.w3.org/WAI/tutorials/images/
-repository: wai-tutorials                                   #optional
+repository: wai-tutorials                                      #optional
 requirements: http://www.w3.org/WAI/EO/changelogs/cl-app-notes #optional
 updated: 2015-03-02
-current-stage: publication                                  #See RDLC
+current-stage: publication                                     #See RDLC
 priority: false                # optional
 urgency: 4                     # Value 0 to 5 with 1 = low, 5 = high
 effort: 1                      # Value 0 to 5 with 1 = low, 5 = high
@@ -26,3 +34,4 @@ roadmap:                       # Next stage -> First Value
     stage: publication         # optional
 note: "Minor issue fixed on Github as [PR#340](https://github.com/w3c/wai-tutorials/pull/340)."      # optional
 ---
+</pre>
