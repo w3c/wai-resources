@@ -1,6 +1,6 @@
 ---
 title: "ATAG Overview"
-shorttitle: "ATAG"
+shorttitle: "ATAG Overview"
 uri: https://www.w3.org/WAI/intro/atag.php
 updated: 2015-09-24
 current-stage: [publication]
