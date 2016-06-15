@@ -10,6 +10,8 @@ rm: Shawn
 contributors:
 - Sharron
 current-stage: publication
-roadmap:
+roadmap: # As many pairs of data as you want (first pair -> next stage in the tool)
+  - date: 2016/Q3
+    stage: publication
 note: needs to be updated with links to new resources (e.g., getting started, easy checks)
 ---
