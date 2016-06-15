@@ -9,6 +9,6 @@ urgency: 0
 effort: 0
 rm: Shawn
 roadmap: # As many pairs of data as you want (first pair -> next stage in the tool)
-  - date: [date – 1999-12-24 or 2020/Q3]
-    stage: [requirements|planning|concept|draft|public-draft|publication|maintenance]
+  - date: 2017/Q2
+    stage: maintenance
 ---
