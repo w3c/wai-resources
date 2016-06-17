@@ -15,5 +15,5 @@ contributors:
 roadmap: # As many pairs of data as you want (first pair -> next stage in the tool)
   - date: 2017/Q1
     stage: publication
-note: "We need to determine whether this resource needs to be retired, updated, rewritten or combined with other existing resources "
+note: "We need to determine whether this resource needs to be retired, updated, rewritten or combined with other existing resources."
 ---
