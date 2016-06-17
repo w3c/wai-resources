@@ -1,12 +1,10 @@
 ---
 title: "WCAG Overview"
 uri: https://www.w3.org/WAI/intro/wcag.php
-repository: None
-requirements: "[url of requirements analysis – optional]"
 updated: 2012-10-02
 current-stage: Published
 priority: true
-urgency: 5
+urgency: 2
 effort: 2
 rm: Brent
 contributors:
