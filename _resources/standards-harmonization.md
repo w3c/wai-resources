@@ -9,7 +9,7 @@ current-stage: publication
 priority: true
 urgency: 3
 effort: 4
-rm: Denis Boudreau
+rm: Denis
 contributors:
 - Susan
 roadmap: # As many pairs of data as you want (first pair -> next stage in the tool)
