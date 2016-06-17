@@ -11,7 +11,7 @@ urgency: 3
 effort: 4
 rm: Denis Boudreau
 contributors:
-- none yet
+- Susan
 roadmap: # As many pairs of data as you want (first pair -> next stage in the tool)
   - date: 2011-11
     stage: maintenance
