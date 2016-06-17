@@ -12,5 +12,5 @@ contributors:
 - Shawn
 current-stage: published
 roadmap:
-note: Literature Review sub page should get updated status
+note: Mobile Overlap & Common Barriers subpages included in this review; Literature Review sub page should get updated status
 ---
