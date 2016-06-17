@@ -13,7 +13,7 @@ rm: None yet
 contributors:
 - Denis
 roadmap: # As many pairs of data as you want (first pair -> next stage in the tool)
-  - date: [date – 1999-12-24 or 2020/Q3]
+  - date: TBD
     stage: publication
 note: "We need to determine whether this resource needs to be retired, updated, rewritten or combined with other existing resources "
 ---
