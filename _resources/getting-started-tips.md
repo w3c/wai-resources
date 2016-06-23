@@ -3,7 +3,7 @@ title: "Tips for Getting Started"
 shorttitle: "Quick tips"
 uri: http://www.w3.org/WAI/gettingstarted/tips/index.html
 repository: wai-quick-start
-requirements: "[url of requirements analysis – optional]"
+requirements: ""
 updated: 2016-03-03
 current-stage: publication
 priority: true
