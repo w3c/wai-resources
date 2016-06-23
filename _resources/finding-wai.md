@@ -1,5 +1,5 @@
 ---
-title: "Finding Your WAI ("way") to New Web Accessibility Resources"
+title: "Finding Your WAI (“way”) to New Web Accessibility Resources"
 shorttitle: "Finding Your WAI"
 uri: https://www.w3.org/WAI/yourWAI
 updated: 2016-05-01
