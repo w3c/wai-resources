@@ -2,8 +2,8 @@
 title: "Using Combined Expertise to Evaluate Web Accessibility"
 shorttitle: "Combined expertise"
 uri: https://www.w3.org/WAI/eval/reviewteams.html
-repository: "[repository, for example wai-tutorials – no need for w3c/ or GitHub URL – optional]"
-requirements: "[url of requirements analysis – optional]"
+# repository: "[repository, for example wai-tutorials – no need for w3c/ or GitHub URL – optional]"
+# requirements: "[url of requirements analysis – optional]"
 updated: 2002
 current-stage: publication
 priority: false
