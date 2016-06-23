@@ -75,6 +75,7 @@ note: "[note – optional]"
       <th>Effort</th>
       <th>Manager</th>
       <th class="contributors">Contributors</th>
+      <th>Note</th>
     </thead>
     <tbody>
     {% assign resources = site.resources | order_by: 'priority' %}
@@ -98,9 +99,6 @@ note: "[note – optional]"
               <a href="{{ res.requirements }}/">{% include icon.html use="requirements" %} Requirements</a>
             {% endif %}
             </small>
-            {% if res.note %}
-              <div class="note">{{ res.note | markdownify }}</div>
-            {% endif %}
           </th>
           <!-- <td>{{ res.status }}</td> -->
           <td class="{{ res.current-stage }}">
@@ -118,6 +116,9 @@ note: "[note – optional]"
               {% if forloop.first %}<ul class="inline oxford">{% endif %}<li>{% if site.data.people[cont] %}<a href="http://github.com/{{ site.data.people[cont]['github'] }}">{% comment %}<img src="https://github.com/{{ site.data.people[cont]['github'] }}.png?size=20" width="20" alt="">{% endcomment %} {% endif %}{{ cont }}{% if site.data.people[cont]%}</a>{% endif%}</li>{% if forloop.last %}</ul>{% endif %}
             {% endfor %}
           </td>
+          <td>{% if res.note %}
+            <div class="note">{{ res.note | markdownify }}</div>
+          {% endif %}</td>
         </tr>
     {% endfor %}
     </tbody>
