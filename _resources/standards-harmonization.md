@@ -2,8 +2,8 @@
 title: "Why Standards Harmonization is Essential to Web Accessibility"
 shorttitle: "Standards Harmonization"
 uri: https://www.w3.org/WAI/Policy/harmon.html
-repository: "[repository, for example wai-tutorials – no need for w3c/ or GitHub URL – optional]"
-requirements: "[url of requirements analysis – optional]"
+# repository: "[repository, for example wai-tutorials – no need for w3c/ or GitHub URL – optional]"
+# requirements: "[url of requirements analysis – optional]"
 updated: 2011-11
 current-stage: publication
 priority: true
