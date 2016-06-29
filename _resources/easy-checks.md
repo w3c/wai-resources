@@ -1,8 +1,8 @@
 ---
-title: "Easy Checks"
-shorttitle: 
-uri: 
-repository: "https://github.com/w3c/EasyChecks"
+title: "Easy Checks - A First Review of Web Accessibility"
+shorttitle: "Easy Checks"
+uri: http://www.w3.org/WAI/eval/preliminary
+repository: "EasyChecks"
 requirements: "https://www.w3.org/WAI/EO/wiki/Easy_Checks"
 updated: 2014-03-01
 current-stage: public-draft
