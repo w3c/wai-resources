@@ -9,11 +9,12 @@ current-stage: publication                                  #See RDLC
 priority: true                # optional
 urgency: 5                     # Value 0 to 5 with 1 = low, 5 = high
 effort: 4                      # Value 0 to 5 with 1 = low, 5 = high
-rm: ?Mary Jo, Wayne                      # Resource Manager
+rm: Mary Jo                      # Resource Manager
 contributors:                  # List of Contributors, optional
 - Shawn
 - Brent
 - EricE
 - Andrew
+- Wayne
 note: ""      # optional
 ---
