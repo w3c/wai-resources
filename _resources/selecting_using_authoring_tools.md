@@ -15,5 +15,5 @@ contributors:
 roadmap: # As many pairs of data as you want (first pair -> next stage in the tool)
   - date: 2016/Q4
     stage: maintenance - review
-note: "[note – optional]"
+note: ""
 ---
