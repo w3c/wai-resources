@@ -1,6 +1,6 @@
 ---
 title: "How to Update Your Web Site from WCAG 1.0 to WCAG 2.0"
-shorttitle: "WCAG Update 1 to 2"
+shorttitle: "WCAG Web Site Update 1 to 2"
 uri: https://www.w3.org/WAI/WCAG20/from10/websites
 repository: 
 requirements: 
