@@ -13,7 +13,7 @@ rm: Brent
 contributors:
 - Shawn
 roadmap: # As many pairs of data as you want (first pair -> next stage in the tool)
-  - date: 2016/Q3]
+  - date: 2016/Q3
     stage: draft
 note: "Double check and add any recent updates of WCAG 2.0"
 ---
