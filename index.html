@@ -71,8 +71,8 @@ note: "[note – optional]"
       <!-- <th>Status</th> -->
       <th>Current Stage</th>
       <th>Next Stage</th>
-      <th>Urgency</th>
-      <th>Effort</th>
+      <th class="sort-number">Urgency</th>
+      <th class="sort-number">Effort</th>
       <th>Manager</th>
       <th class="contributors">Contributors</th>
       <th>Note</th>
@@ -107,8 +107,8 @@ note: "[note – optional]"
           </td>
           {% assign nextrmi = res.roadmap.first %}
           <td class="nextstage {{ nextrmi.stage | lower }}">{% if nextrmi.stage %}{{ nextrmi.stage }}<small><br>{{ nextrmi.date }}</small>{% endif%}</td>
-          <td>{{ severity[res.urgency] }}</td>
-          <td>{{ severity[res.effort] }}</td>
+          <td class="sortkey-{{res.urgency}}">{{ severity[res.urgency] }}</td>
+          <td class="sortkey-{{res.effort}}">{{ severity[res.effort] }}</td>
           <td>{% if site.data.people[res.rm] %}<a href="http://github.com/{{ site.data.people[res.rm]['github'] }}">{% comment %}<img src="https://github.com/{{ site.data.people[res.rm]['github'] }}.png?size=20" width="20" alt="">{% endcomment %} {% endif %}{{ res.rm }}{% comment %}{% if site.data.people[res.rm]%}</a>{% endif%}{% endcomment %}</td>
           <td class="contributors">
             {% assign contribs = res.contributors %}
