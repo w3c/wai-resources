@@ -6,7 +6,7 @@ repository:
 requirements: 
 updated: [2009-03-11]
 current-stage: maintenance
-priority: false
+active: false
 urgency: 1
 effort: 1
 rm: Brent

@@ -6,7 +6,7 @@ repository: wai-components-gallery
 requirements: https://github.com/w3c/wai-components-gallery/wiki/requirements-analysis
 status: draft
 rm: EricE
-priority: false
+active: false
 urgency: 5
 effort: 3
 current-stage: publication

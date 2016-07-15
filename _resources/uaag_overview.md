@@ -4,7 +4,7 @@ shorttitle: "UAAG Overview"
 uri: https://www.w3.org/WAI/intro/uaag.php
 updated: 2016-05-01
 current-stage: publication
-priority: false
+active: false
 urgency: 1
 effort: 1
 rm: Shawn

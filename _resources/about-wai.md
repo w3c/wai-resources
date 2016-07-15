@@ -4,7 +4,7 @@ shorttitle: "About WAI"
 uri: https://www.w3.org/WAI/about.html
 updated: 2005-07-01
 current-stage: publication
-priority: true
+active: true
 urgency: 4
 effort: 1
 rm: Shawn

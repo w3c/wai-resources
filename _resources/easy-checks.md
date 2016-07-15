@@ -6,7 +6,7 @@ repository: "EasyChecks"
 requirements: "https://www.w3.org/WAI/EO/wiki/Easy_Checks"
 updated: 2014-03-01
 current-stage: public-draft
-priority: true
+active: true
 urgency: 4
 effort: 3
 rm: "Caleb"

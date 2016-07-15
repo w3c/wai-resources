@@ -4,7 +4,7 @@ shorttitle: "Finding Your WAI"
 uri: https://www.w3.org/WAI/yourWAI
 updated: 2016-05-01
 current-stage: publication
-priority: false
+active: false
 urgency: 0
 effort: 0
 rm: Shawn

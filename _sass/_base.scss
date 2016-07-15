@@ -324,7 +324,7 @@ th small {
 }
 */
 
-.custom.prio-only    tbody tr[data-prio=true],
+.custom.active-only  tbody tr[data-active=true],
 .custom.urgency-high tbody tr[data-urgency="5"],
 .custom.effort-low   tbody tr[data-effort="0"],
 .custom.effort-low   tbody tr[data-effort="1"],

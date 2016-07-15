@@ -6,7 +6,7 @@ repository: "[repository, for example wai-tutorials – no need for w3c/ or GitH
 requirements: "[url of requirements analysis – optional]"
 updated: 2005
 current-stage: publication
-priority: false
+active: false
 urgency: 1
 effort: 5
 rm: None yet

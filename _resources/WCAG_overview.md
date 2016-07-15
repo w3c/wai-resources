@@ -3,7 +3,7 @@ title: "WCAG Overview"
 uri: https://www.w3.org/WAI/intro/wcag.php
 updated: 2012-10-02
 current-stage: maintenance
-priority: true
+active: true
 urgency: 2
 effort: 2
 rm: Brent

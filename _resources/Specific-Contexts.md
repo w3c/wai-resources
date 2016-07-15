@@ -6,7 +6,7 @@ uri: https://www.w3.org/WAI/eval/considerations.html
 # requirements: "[url of requirements analysis – optional]"
 updated: 2005
 current-stage: publication
-priority: false
+active: false
 urgency: 1
 effort: 5
 rm: "@@needed"

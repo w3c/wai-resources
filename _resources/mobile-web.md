@@ -5,7 +5,7 @@ repository:
 updated: 2015-03-18
 urgency: 4
 effort: 3
-priority: true
+active: true
 rm: Susan
 contributors:
 - Adina

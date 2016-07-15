@@ -3,7 +3,7 @@ title: "Accessibility - W3C"
 uri: http://www.w3.org/standards/webdesign/accessibility
 repository:
 updated: 2005-09-01
-priority: true
+active: true
 urgency: 3
 effort: 2
 rm: Shawn

@@ -6,7 +6,7 @@ uri: https://www.w3.org/WAI/Policy/harmon.html
 # requirements: "[url of requirements analysis – optional]"
 updated: 2011-11
 current-stage: publication
-priority: true
+active: true
 urgency: 3
 effort: 4
 rm: Denis

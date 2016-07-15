@@ -6,7 +6,7 @@ repository: wai-quick-start
 # requirements: ""
 updated: 2016-03-03
 current-stage: publication
-priority: true
+active: true
 urgency: 3
 effort: 5
 rm: Denis

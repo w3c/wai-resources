@@ -4,7 +4,7 @@ shorttitle: "ATAG at a Glance"
 uri: https://www.w3.org/WAI/intro/atag-glance
 updated: [2016-05-18]
 current-stage: public-draft
-priority: false
+active: false
 urgency: 3
 effort: 1
 rm: Shawn

@@ -6,7 +6,7 @@ uri: https://www.w3.org/WAI/eval/reviewteams.html
 # requirements: "[url of requirements analysis – optional]"
 updated: 2002
 current-stage: publication
-priority: false
+active: false
 urgency: 1
 effort: 4
 rm: None yet

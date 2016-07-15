@@ -4,7 +4,7 @@ shorttitle: "Using WAI Material"
 uri: https://www.w3.org/WAI/about/usingWAImaterial
 updated: 2016-05-17
 current-stage: publication
-priority: false
+active: false
 urgency: 0
 effort: 0
 rm: Shawn

@@ -7,7 +7,7 @@ requirements: "[url of requirements analysis – optional]"
 updated: [2002]
 status: "needs update"
 current-stage: [maintenance]
-priority: false
+active: false
 urgency: 4
 effort: 1
 rm: [Howard]
