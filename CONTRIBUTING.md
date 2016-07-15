@@ -20,7 +20,7 @@ repository: wai-tutorials                                      #optional
 requirements: http://www.w3.org/WAI/EO/changelogs/cl-app-notes #optional
 updated: 2015-03-02
 current-stage: publication                                     #See RDLC
-priority: false                # optional
+active: false                # optional
 urgency: 4                     # Value 0 to 5 with 1 = low, 5 = high
 effort: 1                      # Value 0 to 5 with 1 = low, 5 = high
 rm: EricE                      # Resource Manager
