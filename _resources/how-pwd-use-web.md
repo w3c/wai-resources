@@ -5,7 +5,7 @@ repository:
 updated: 2012-08-01
 urgency: 5
 effort:
-active: true
+active: false
 rm: Shadi
 contributors:
 - Wayne

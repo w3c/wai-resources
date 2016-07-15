@@ -4,8 +4,8 @@ shorttitle: "Perspectives Videos"
 uri: http://www.w3.org/WAI/perspectives/
 repository: wai-showcase-examples
 updated: 2016-05-13
-urgency:
-effort:
+urgency: 0
+effort: 0
 rm: Shadi
 contributors:
 - Shawn
