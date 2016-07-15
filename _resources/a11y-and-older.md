@@ -4,9 +4,9 @@ shorttitle: "a11y & Older People: Meeting Needs"
 uri: http://www.w3.org/WAI/older-users/Overview.php
 repository:
 updated: 2010-10-18
-urgency:
-effort:
-priority:
+urgency: 0
+effort: 0
+active:
 rm: Andrew
 contributors:
 - Susan
