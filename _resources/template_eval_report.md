@@ -12,7 +12,6 @@ urgency: 4
 effort: 1
 rm: Howard
 contributors:
-- Howard
 - Shadi
 roadmap: # As many pairs of data as you want (first pair -> next stage in the tool)
   - date: 2015-6-24
