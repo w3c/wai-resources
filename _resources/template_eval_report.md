@@ -2,7 +2,7 @@
 title: "Template Eval Reports"
 shorttitle: "Template Eval Reports"
 uri: http://www.w3.org/WAI/eval/template
-repository: ""
+repository: https://github.com/w3c/wai-eval-report-templates
 #requirements: "[url of requirements analysis – optional]"
 updated: 2002
 status: "needs update"
