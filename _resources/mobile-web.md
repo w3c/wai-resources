@@ -1,7 +1,7 @@
 ---
 title: "Mobile Accessibility"
 uri: http://www.w3.org/WAI/mobile/
-repository:
+repository: wai-eo-mobile
 updated: 2015-03-18
 urgency: 4
 effort: 3
