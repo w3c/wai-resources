@@ -1,6 +1,6 @@
 ---
 title: "The WCAG 2.0 Documents"
-shorttitle: "WCAG 2.0 Docs"
+shorttitle: "WCAG 2.0 Docs/Intro"
 uri: https://www.w3.org/WAI/intro/wcag20.php
 repository: 
 requirements: 
