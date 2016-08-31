@@ -6,7 +6,7 @@ repository: "[GitHub URL]"
 requirements: "https://www.w3.org/WAI/EO/changelogs/cl-training.html"
 updated: 2013-02-21
 current-stage: maintenance
-active: [true|false – optional]
+active: 
 urgency: 5
 effort: 4
 rm: Andrew
