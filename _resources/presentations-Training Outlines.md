@@ -1,6 +1,6 @@
 ---
 title: "Example Outlines for Web Accessibility Presentations"
-shorttitle: "Presentations & Training - Outlines]"
+shorttitle: "Presentations & Training - Outlines"
 uri: https://www.w3.org/WAI/training/presentation-outlines
 repository: "[GitHub URL]"
 requirements: "https://www.w3.org/WAI/EO/changelogs/cl-training.html"
