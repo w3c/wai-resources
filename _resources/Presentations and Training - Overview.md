@@ -1,6 +1,6 @@
 ---
 title: "Developing Web Accessibility Presentations and Training: Overview"
-shorttitle: "Presentations-Training- Overview"
+shorttitle: "Presentations & Training - Overview"
 uri: https://www.w3.org/WAI/training/Overview.html
 repository: "[repository, for example wai-tutorials – no need for w3c/ or GitHub URL – optional]"
 requirements: "https://www.w3.org/WAI/EO/changelogs/cl-training.html"
