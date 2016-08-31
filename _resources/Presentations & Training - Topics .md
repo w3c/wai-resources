@@ -19,5 +19,5 @@ roadmap: # As many pairs of data as you want (first pair -> next stage in the to
     stage: add in post-2010-2013 resources to existing Topics
   - date: 20167/Q1
     stage: consider new topics
-note: "[note – optional]"
+note: "Check links/redirects; add in post 2010-13 resources"
 ---
