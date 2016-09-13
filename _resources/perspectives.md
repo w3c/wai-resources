@@ -5,6 +5,7 @@ uri: http://www.w3.org/WAI/perspectives/
 repository: wai-showcase-examples
 requirements: https://www.w3.org/WAI/EO/wiki/Showcase_Examples_with_Videos/Requirements_Analysis
 updated: 2016-05-13
+active: true
 urgency: 1
 effort: 1
 rm: Shadi
