@@ -2,7 +2,7 @@
 title: "Web Accessibility First Aid: Approaches for Interim Repairs"
 shorttitle: "Improving"
 uri: https://www.w3.org/WAI/impl/improving
-repository: "wai-planning-and-implementation/improving"
+repository: "wai-planning-and-implementation"
 requirements: "https://www.w3.org/WAI/EO/wiki/Planning_and_Managing_Web_Accessibility"
 updated: 2016-05-15
 current-stage: public-draft
