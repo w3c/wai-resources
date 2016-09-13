@@ -220,10 +220,9 @@ pre {
   display: flex;
   margin-bottom: 1em;
   fieldset {
-    flex:3;
+    flex:1;
     &:first-child {
       order:2;
-      flex: 1;
       margin-left: 2em;
       form {
         display: flex;
