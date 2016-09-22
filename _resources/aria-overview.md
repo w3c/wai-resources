@@ -1,7 +1,7 @@
 ---
 title: "WAI-ARIA Overview"
 shorttitle: "WAI-ARIA Overview"
-uri: https://www.w3.org/WAI/ARIA/faq
+uri: https://www.w3.org/WAI/intro/aria.php
 updated: 2016-01-15
 current-stage: publication
 urgency: 1
