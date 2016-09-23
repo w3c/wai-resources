@@ -2,7 +2,7 @@
 title: "Topics for Web Accessibility Presentations and Training"
 shorttitle: "Presentations & Training - Topics"
 uri: https://www.w3.org/WAI/training/topics
-repository: "[GitHub URL]"
+repository: wai-training/blob/gh-pages/topics.html
 requirements: "https://www.w3.org/WAI/EO/changelogs/cl-training.html"
 updated: 2013-02-21
 current-stage: maintenance
