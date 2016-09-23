@@ -2,7 +2,7 @@
 title: "Developing Web Accessibility Presentations and Training: Overview"
 shorttitle: "Presentations & Training - Overview"
 uri: https://www.w3.org/WAI/training/Overview.html
-repository: https://github.com/w3c/wai-training/blob/gh-pages/index.html
+repository: wai-training/blob/gh-pages/index.html
 requirements: "https://www.w3.org/WAI/EO/changelogs/cl-training.html"
 updated: 2013-02-21
 current-stage: maintenance
