@@ -16,5 +16,5 @@ contributors:                  # List of Contributors, optional
 - EricE
 - Andrew
 - Wayne
-note: ""      # optional
+note: "draft prototype https://w3c.github.io/wai-policies-prototype/"      # optional
 ---
