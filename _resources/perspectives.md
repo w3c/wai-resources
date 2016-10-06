@@ -4,10 +4,10 @@ shorttitle: "Perspectives Videos"
 uri: http://www.w3.org/WAI/perspectives/
 repository: wai-showcase-examples
 requirements: https://www.w3.org/WAI/EO/wiki/Showcase_Examples_with_Videos/Requirements_Analysis
-updated: 2016-05-13
-active: true
-urgency: 1
-effort: 1
+updated: 2016-09-29
+active: false
+urgency: 0
+effort: 0
 rm: Shadi
 contributors:
 - Shawn
@@ -15,7 +15,5 @@ contributors:
 - Brent
 current-stage: publication
 roadmap:
-  - date: 2016/Q3
-    stage: publication
-note: "minor update to add video compilation and other minor changes"
+note: "completed; can be parked until Q3 2017 for review"
 ---
