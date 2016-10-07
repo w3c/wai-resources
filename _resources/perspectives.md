@@ -15,5 +15,7 @@ contributors:
 - Brent
 current-stage: publication
 roadmap:
+  - date: 2017/Q3
+    stage: review
 note: "completed; can be parked until Q3 2017 for review"
 ---
