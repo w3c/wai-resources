@@ -7,12 +7,12 @@ requirements: "https://www.w3.org/WAI/EO/wiki/Planning_and_Managing_Web_Accessib
 updated: 2016-04-15
 current-stage: public-draft
 active: true
-urgency: 2
+urgency: 5
 effort: 1
 rm: Shadi
 contributors:
 roadmap: 
-  - date: 2016/Q3
+  - date: 2016/Q4
     stage: publication
-note: "Minor updates"
+note: "Ready for final approval, as soon as 'Improving' is completed"
 ---
